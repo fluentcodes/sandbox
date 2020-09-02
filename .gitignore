@@ -15,3 +15,4 @@ builder-eo/
 builder-sandboxes/
 builder-projects/
 .deploy.sh
+.vscode/
