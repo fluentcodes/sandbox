@@ -1,7 +1,4 @@
-package fluentcodes.sandboxjava.helper;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+package fluentcodes.sandbox.helper;
 
 /**
  * 
@@ -10,10 +7,7 @@ import org.apache.logging.log4j.Logger;
 
 
 public class SubTest  {
- private static transient Logger LOG = LogManager.getLogger(SubTest.class);
-
-
-  private Long id;
+ private Long id;
   private SubTest subTest;
   private String name;
   private String testString;

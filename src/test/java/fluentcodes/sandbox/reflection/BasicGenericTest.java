@@ -1,6 +1,6 @@
-package fluentcodes.sandboxjava.reflection;
+package fluentcodes.sandbox.reflection;
 
-import fluentcodes.sandboxjava.helper.BasicTest;
+import fluentcodes.sandbox.helper.BasicTest;
 import org.junit.Assert;
 import org.junit.Test;
 

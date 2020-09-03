@@ -12,7 +12,7 @@ public class HashCodeTest {
   @Test
   public void testHashSet() {
     String value = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789";
-    LOG.info(value.hashCode());
+    System.out.println(value.hashCode());
   }
 
   @Test
@@ -29,7 +29,7 @@ public class HashCodeTest {
     int code = 0;
     char[] chars = value.toCharArray();
     for (int i = 0; i < chars.length; i++) {
-      LOG.info(i + " - " + chars[i] + ": " + chars[i] * 1);
+      System.out.println(i + " - " + chars[i] + ": " + chars[i] * 1);
       code = code * 31 + chars[i];
     }
     return code;

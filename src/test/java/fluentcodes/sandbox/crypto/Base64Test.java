@@ -13,10 +13,8 @@
  * limitations under the License.
  */
 
-package fluentcodes.sandboxjava.crypto;
+package fluentcodes.sandbox.crypto;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 
 import junit.framework.Assert;
@@ -57,10 +55,7 @@ import java.util.Base64;
  */
 
 public class Base64Test {
-	
-  private static final Logger LOG = LogManager.getLogger(Base64Test.class);
 
-  
   @Test
   public void encryptAndDecrypt() throws UnsupportedEncodingException {
 	  final String encoded = Base64.getEncoder().encodeToString("some string".getBytes("utf-8"));

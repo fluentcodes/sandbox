@@ -1,7 +1,4 @@
-package fluentcodes.sandboxjava.helper;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+package fluentcodes.sandbox.helper;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -15,8 +12,6 @@ import java.util.HashMap;
 
 
 public class BasicTest  {
- private static transient Logger LOG = LogManager.getLogger(BasicTest.class);
-
   private Long id;
   private BasicTest basicTest;
   private SubTest subTest;
