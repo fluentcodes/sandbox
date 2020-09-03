@@ -5,8 +5,8 @@ The sandbox repository should show how you can use git to
 * share it with others
 * document it with an external wiki
 
-So you will find only this README on master. *The branches contains the information*. Some information about
-
+So you will find only this README on master. **The branches contains the code**.
+Information about the code content is in the [github wiki](https://github.com/fluentcodes/sandbox/wiki).
 
 It's intention is to be a kind of memory for experiments, when one need to get into a special topic. Sometimes
 frameworks or languages don't work as one expect or a non working solution is published.
