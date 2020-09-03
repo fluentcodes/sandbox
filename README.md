@@ -32,3 +32,4 @@ This September I work on
 ### Links
 * https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
 * https://www.educative.io/edpresso/how-to-delete-remote-branches-in-git
+* https://phoenixnap.com/kb/how-to-rename-git-branch-local-remote
