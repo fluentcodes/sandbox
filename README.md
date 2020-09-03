@@ -1,6 +1,4 @@
-##### Classfinder:
-
-For my project elastic objects I needed a classfinder who loads
-classes filtered classes in the classpath.
+# Topic Branch java7-empty
+Just an empty branch to create new topic branches.
 
 
