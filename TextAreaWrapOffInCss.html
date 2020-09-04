@@ -2,14 +2,40 @@
 <header>
     <title>Sandbox css: Textarea Nowrap</title>
 </header>
-<body>
+<p>
     <h2>Avoid textarea text wrapping with css/ scroll bars</h2>
-    <h4>no entry</h4>
+<p>When working on this topic for <a href="www.elasticobjects.org">elasticobjects</a> project to put some working examples on a page,
+    I remembered why I stopped working as a frontend developer more than twenty years ago.
+    Different behaviour on the browsers.
+    I've choosen proposed
+    "whitespace:no-break" first, which worked on chrome but not on firefox</p>
+
+<p>Think that Firefox did it right, since whitespace includes new line and so "new line" should be ignored. </p>
+
+    <h3>no entry</h3>
+Default behaviour is breaking whitespaces when the text is too long:
     <textarea>xxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx</textarea>
 
-    <h4>Attribute wrap=off</h4>
-    <textarea wrap="off">xxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx</textarea>
+    <h3>Attribute wrap=off</h3>
+The attribute solution works on all browsers: No break for whitespace if text is too long:
+    <textarea wrap="off">xxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx
+yyyy</textarea>
+But I don't like to put the attribute on every textarea.
 
+    <h3>white-space: pre;</h3>
+<p>
+This style sheet solution from <a href="https://stackoverflow.com/questions/14443262/cross-browser-nowrap-textarea">stackoverflow</a>
+    works as wrap="off".
+</p>
+    <textarea style="white-space: pre;">xxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx
+yyyy</textarea>
+<ul>
+    <li>https://developer.mozilla.org/de/docs/Web/CSS/white-space</li>
+    <li>https://www.w3schools.com/cssref/pr_text_white-space.asp</li>
+</ul>
+
+<h3>Non working solutions</h3>
+The Non working solutions I've found:
     <h4>white-space: no-wrap;</h4>
     <textarea style="white-space: no-wrap;">xxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx</textarea>
 
